@@ -1,6 +1,6 @@
 # Chính sách quyền riêng tư — Tiện ích "Soạn Hồ Sơ"
 
-*Cập nhật lần cuối: 30/09/2026*
+*Cập nhật lần cuối: 22/10/2026*
 
 Chào mừng bạn sử dụng **Soạn Hồ Sơ** (sau đây gọi tắt là "Tiện ích"), một tiện ích mở rộng cho Google Sheets (Editor Add-on). Chúng tôi cam kết bảo vệ tuyệt đối sự riêng tư và bảo mật dữ liệu của bạn. Chính sách này giải thích rõ ràng và minh bạch về cách thức tiện ích hoạt động cũng như cách dữ liệu của bạn được xử lý.
 
@@ -37,6 +37,7 @@ Tiện ích chỉ yêu cầu các phạm vi quyền tối thiểu cần thiết 
 ## 3. Lưu trữ cấu hình và thông tin cài đặt
 
 - Mọi thiết lập của bạn (bao gồm đường link mẫu Google Docs, đường link thư mục xuất Google Drive, bảng ánh xạ giữa cột bảng tính và trường trong mẫu) được lưu trữ trực tiếp trong thuộc tính tài liệu (`DocumentProperties`) của chính tệp Google Sheets mà bạn đang thao tác.
+- **Nhật ký lỗi kỹ thuật:** khi tiện ích gặp lỗi chưa xử lý, Google Apps Script tự ghi thông báo lỗi vào Cloud Logging của dự án Google Cloud thuộc nhà phát triển (chỉ để sửa lỗi, tự xoá theo thời hạn lưu mặc định của Google). Thông báo lỗi có thể kèm một đoạn giá trị ô gây lỗi.
 - Chúng tôi **không thu thập**, không theo dõi và không lưu trữ thông tin nhận dạng cá nhân (PII), địa chỉ IP, cookies, hay bất kỳ số liệu phân tích hành vi người dùng (telemetry/analytics) nào.
 
 ---
